@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 document.getElementById('comment-submit').addEventListener('click', function() {
     const commentInput = document.getElementById('comment-input');
-    const commentText = commentInput.ariaValueMax.trim();
+    const commentText = commentInput.value.trim();
 
     if (commentText !== '') {
         const commentList = document.getElementById('comments-list');
