@@ -9,7 +9,7 @@ document.getElementById('comment-submit').addEventListener('click', function() {
         newComment.textContent = commentText;
 
         commentList.appendChild(newComment);
-        commentInput.value = ' ';
+        commentInput.value = '';
     } else {
         alert('Please enter a comment!');
     }
